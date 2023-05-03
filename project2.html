@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meditation</title>
+    <style>
+      body {
+        background: radial-gradient(
+          circle at 7.5% 24%,
+          rgb(237, 161, 193) 0%,
+          rgb(250, 178, 172) 25.5%,
+          rgb(190, 228, 210) 62.3%,
+          rgb(215, 248, 247) 93.8%
+        );
+      }
+
+      h1 {
+        text-align: center;
+        color: #662eed;
+        font-family: "Roboto", sans-serif;
+      }
+      h2 {
+        text-align: center;
+        color: #662eed;
+        font-family: "Roboto", sans-serif;
+      }
+
+      .container {
+        max-width: 600px;
+        background-color: lavenderblush;
+        text-align: center;
+        padding: 20px 20px;
+        margin: 20px auto;
+        display: block;
+        border-radius: 20px;
+        justify-content: center;
+      }
+
+      img {
+        max-width: 100%;
+        max-height: 100%;
+      }
+
+      footer {
+        text-align: center;
+      }
+
+      button {
+        display: block;
+        margin: 0 auto;
+        border: 1px solid plum;
+        background: white;
+        font-size: 15px;
+        border-radius: 6px;
+        padding: 10px 15px;
+        transition: all 150ms ease-in-out;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      button:hover {
+        background: plum;
+        cursor: pointer;
+      }
+
+      a {
+        text-decoration: none;
+      }
+
+      footer {
+        font-family: monospace;
+        font-size: 20px;
+        color: #662eed;
+        margin: 15px;
+      }
+
+      p {
+        font-size: 16px;
+        line-height: 1.5;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      .theme-button {
+        font-size: 15px;
+        background: white;
+        color: black;
+        padding: 5 8px;
+        border: 1px solid white;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      .theme-button:hover {
+        background: black;
+        color: white;
+      }
+
+      .image-1,
+      .image-2,
+      .image-3,
+      .image-4 {
+        border-radius: 10px;
+        transition: all 150ms ease-in-out;
+      }
+
+      .image-1:hover {
+        filter: contrast(80%);
+        transform: scale(1.1);
+      }
+
+      .image-2:hover {
+        filter: contrast(80%);
+        transform: scale(1.1);
+      }
+
+      .image-3:hover {
+        filter: contrast(80%);
+        transform: scale(1.1);
+      }
+
+      .image-4:hover {
+        filter: contrast(80%);
+        transform: scale(1.1);
+      }
+
+      .image-5:hover {
+        filter: contrast(80%);
+        transform: scale(1.1);
+      }
+
+      .grid {
+        margin: 15px 0;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-gap: 20px;
+      }
+
+      .grid img {
+        width: 100%;
+        border-radius: 8px;
+        object-fit: cover;
+        aspect-ratio: 2;
+        transition: all 150ms ease-in-out;
+      }
+
+      .dark {
+        background: linear-gradient(
+          109.6deg,
+          rgba(0, 0, 0, 0.93) 11.2%,
+          rgb(63, 61, 61) 78.9%
+        );
+      }
+
+      .dark .container {
+        background: rgba(255, 255, 255, 0.1);
+        color: white;
+      }
+
+      .dark a {
+        color: blue;
+      }
+
+      .dark h1 {
+        color: antiquewhite;
+      }
+
+      .dark h2 {
+        color: antiquewhite;
+      }
+    </style>
+  </head>
+  <body>
+    <button class="theme-button">Change theme</button>
+    <div class="container">
+      <h1>Meditation: Food for the soul 😌</h1>
+      <h2>A passion of mine</h2>
+
+      <img
+        src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/080/027/original/960x0.jpeg?1683038724"
+        class="image-1"
+      />
+      <div class="grid">
+        <img
+          src="https://media.gq-magazine.co.uk/photos/632c843df82bd852d8b9fcd4/3:2/w_1620,h_1080,c_limit/Meditation-Header.jpg"
+          class="image-2"
+        />
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/080/026/original/chakra_healing_meditations_D8.jpeg?1683038714"
+          class="image-3"
+        />
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/080/025/original/b58654b1-4149-481f-a19f-e435f5de7c0d.jpeg?1683038704"
+          class="image-4"
+        />
+        <img
+          src="https://cdn.pixabay.com/photo/2022/11/05/05/36/zen-7571192_1280.jpg"
+          class="image-5"
+        />
+      </div>
+      <p>
+        Meditation is a practice in which an individual uses a technique - such
+        as mindfulness, or focusing the mind on a particular object, thought, or
+        activity - to train attention and awareness, and achieve a mentally
+        clear and emotionally calm and stable state. Meditation may
+        significantly reduce stress, anxiety, depression, and pain, and enhance
+        peace, perception, self-concept, and well-being. Research is ongoing to
+        better understand the effects of meditation on health (psychological,
+        neurological, and cardiovascular) and other areas.
+      </p>
+
+      <button>
+        <a
+          href="https://www.nytimes.com/guides/well/how-to-meditate"
+          target="_blank"
+          >Learn how to meditate</a
+        >
+      </button>
+    </div>
+    <footer>Coded by Elle Aae 🌸</footer>
+    <script>
+      function changeTheme() {
+        let body = document.querySelector("body");
+
+        if (body.classList.contains("dark")) {
+          body.classList.remove("dark");
+        } else {
+          body.classList.add("dark");
+        }
+      }
+      let themeButton = document.querySelector(".theme-button");
+      themeButton.addEventListener("click", changeTheme);
+    </script>
+  </body>
+</html>
